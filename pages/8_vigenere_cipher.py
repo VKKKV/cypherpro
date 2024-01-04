@@ -1,11 +1,11 @@
 import streamlit as st
 
 def vigenere_cipher(text, key, mode='encrypt'):
-    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    key = key.upper()
+    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".lower()
+    key = key.lower()
     key_length = len(key)
     key_as_int = [letters.index(c) for c in key]
-    text = text.upper()
+    text = text.lower()
     result = ""
 
     for i, c in enumerate(text):
