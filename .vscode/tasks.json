@@ -5,7 +5,7 @@
       "label": "Run Streamlit",
       "type": "shell",
       "command": "streamlit",
-      "args": ["run","streamlit_app.py"],
+      "args": ["run","home.py"],
       "problemMatcher": [],
       "group": {
         "kind": "build",
