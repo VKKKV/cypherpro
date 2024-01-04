@@ -24,7 +24,7 @@ def caesar_cipher(text, shift, mode='encrypt'):
     return result
 
 
-st.title("caesar_cipher")
+st.title("Rail fence cipher")
 
 operation = st.radio("选择操作", ('加密', '解密'))
 text = st.text_area("输入文本")
