@@ -5,7 +5,7 @@
       "label": "Run Streamlit",
       "type": "shell",
       "command": "streamlit",
-      "args": ["run","${fileBasenameNoExtension}.py"],
+      "args": ["run","streamlit_app.py"],
       "problemMatcher": [],
       "group": {
         "kind": "build",
