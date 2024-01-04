@@ -28,7 +28,6 @@ importlib-metadata==6.11.0
 installer==0.7.0
 jaraco.classes==3.3.0
 Jinja2==3.1.2
-joblib==1.1.1
 jsonschema==4.20.0
 jsonschema-specifications==2023.12.1
 keyring==24.3.0
