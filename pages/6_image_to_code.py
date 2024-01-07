@@ -20,14 +20,14 @@ def main():
         # 读取图片
         image = Image.open(uploaded_file)
         
-        col1=st.columns(2)
+        col1,col2=st.columns(2)
         with col1: 
             # 显示图片
             st.image(image, caption='上传的图片', use_column_width=True)
 
-        # 转换并显示Hex
-        hex_data = image_to_hex(image)
-        st.text_area("图片的Hex值", hex_data, height=250)
+            # 转换并显示Hex
+            hex_data = image_to_hex(image)
+            st.text_area("图片的Hex值", hex_data, height=250)
 
 if __name__ == "__main__":
     main()

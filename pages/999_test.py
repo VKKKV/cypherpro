@@ -3,7 +3,7 @@ import streamlit as st
 # def method(n,a,b,c):
 #     # 汉诺塔
 #     if(n == 1):
-#         st.write(a,"->",c)
+#         print(a,"->",c)
 #         return 
 #     method(n-1, a, c, b)
 #     method(1, a, b, c)
