@@ -45,7 +45,6 @@ def main():
         input_code = st.text_area("输入要解码的培根密码（例如: AAAAAAAABA等）")
         if st.button("解码"):
             result = decode_bacon(input_code.replace(" ", ""))
-            st.write('asd')
             st.text_area("解码结果", result, height=100)
 
 if __name__ == "__main__":
