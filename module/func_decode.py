@@ -14,9 +14,9 @@ def de_base(base_type, input_str):
       case 'base64':
           return base64.b64decode(input_str.encode())
       case 'base85_ASCII85':
-          return base64.a64decode(input_str.encode())
+          return base64.a85decode(input_str.encode())
       case 'base85_RFC1924':
-          return base64.b64decode(input_str.encode())
+          return base64.b85decode(input_str.encode())
       case _:
           return 'Unsupported base type'
 
